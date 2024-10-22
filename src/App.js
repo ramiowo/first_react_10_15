@@ -5,7 +5,8 @@ import { Menus, Menus_1 } from "./components/ex01/Menus";
 import PropsEx from "./components/ex02/PropsEx";
 import Ex03 from "./components/ex03/Ex03";
 import Ex04 from "./components/ex04/Ex04";
-import Ex05 from "./components/ex05/Ex05";
+
+import { MusicApp } from "./components/ex05/MusicApp";
 
 const App = () => {
   return (
@@ -24,7 +25,7 @@ const App = () => {
 
       {/* <Ex03 /> */}
       {/* <Ex04 /> */}
-      <Ex05 />
+      <MusicApp />
     </>
   );
 };
