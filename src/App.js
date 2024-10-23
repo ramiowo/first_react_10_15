@@ -7,6 +7,7 @@
 // import Ex04 from "./components/ex04/Ex04";
 // import { MusicApp } from "./components/ex05/MusicApp";
 import Ex06 from "./components/ex06/Ex06";
+import Ex07 from "./components/ex07/Ex07";
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
       {/* <Ex03 /> */}
       {/* <Ex04 /> */}
       {/* <MusicApp /> */}
-      <Ex06 />
+      {/* <Ex06 /> */}
+      <Ex07 />
     </>
   );
 };
