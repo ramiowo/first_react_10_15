@@ -1,7 +1,7 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Main from "./pages/Main";
 import Sub01 from "./pages/Sub01";
-import Sub02 from "./pages/Sub02";
+
 import PageNotFound from "./pages/PageNotFound";
 import Header from "./components/Header";
 
@@ -11,9 +11,8 @@ const Ex07 = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/sub01" element={<Sub01 />} />
-        <Route path="/sub02" element={<Sub02 />} />
-        <Route path="/*" element={<PageNotFound />} />
+        <Route path="/sub/:id" element={<Sub01 />} />
+        <Route path="/sub/*" element={<PageNotFound />} />
         {/* => /* Asterlisk (애스털리스크) */}
       </Routes>
     </HashRouter>
